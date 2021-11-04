@@ -16,9 +16,18 @@ public class ArrayInput {
       array[i] = input.nextInt();
     }
 
+    System.out.print("Numbers: [");
+
     for(int i = 0; i < array.length; i++) {
-      System.out.println(array[i]);
+      if(i + 1 != array.length) {
+        System.out.print(array[i] + ",");
+      } else {
+        System.out.print(array[i]);
+      }
+
     }
+
+    System.out.print("]");
   }
 }
 
