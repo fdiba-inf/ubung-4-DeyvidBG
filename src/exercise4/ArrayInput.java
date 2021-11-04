@@ -19,10 +19,12 @@ public class ArrayInput {
     System.out.print("Numbers: [");
 
     for(int i = 0; i < array.length; i++) {
-      if(i + 1 != array.length) {
+      if(i + 1 != array.length && i != 0) {
+        System.out.print(" " + array[i] + ",");
+      } else if(i==0){
         System.out.print(array[i] + ",");
-      } else {
-        System.out.print(array[i]);
+      } else if(i+1==array.length){
+        System.out.print(" " + array[i]);
       }
 
     }
