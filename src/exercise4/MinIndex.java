@@ -3,7 +3,7 @@ package exercise4;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MaxElement {
+public class MinIndex {
 
   public static void main(String[] args) {
 
