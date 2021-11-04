@@ -24,7 +24,7 @@ public class MaxElement {
       }
     }
 
-    System.out.println("Max number: " + max);
+    System.out.println("Max number: " + max + ".0");
 
   }
 }
